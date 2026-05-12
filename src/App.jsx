@@ -95,7 +95,7 @@ export default function App() {
           "anthropic-dangerous-direct-browser-access": "true"
         },
         body: JSON.stringify({
-          model: "claude-sonnet-4-20250514",
+          model: "claude-sonnet-4-5-20251001",
           max_tokens: 2000,
           system: SYSTEM_PROMPT,
           tools: [{ type: "web_search_20250305", name: "web_search" }],
